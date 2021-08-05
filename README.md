@@ -25,9 +25,11 @@ Then, access to the url that VuePress will print like below.
 
 ### Build
 
+- `$ yarn docs:build`
+
 Add [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/related)
 
-- `$ yarn docs:build`
+- Specify a directory, `\docs\.vuepress\dist`
 
 ## How to write docs
 
