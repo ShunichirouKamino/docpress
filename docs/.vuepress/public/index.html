@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>docpress</title>
+    <meta name="description" content="vuepress template">
+  </head>
+  <body>
+    <script>
+      const browserLang = (window.navigator.languages && window.navigator.languages[0]) ||
+        window.navigator.language ||
+        window.navigator.userLanguage ||
+        window.navigator.browserLanguage;
+
+      switch(browserLang) {
+      case 'en':
+        location.href = '/en';
+        break;
+      default:
+        location.href = '/ja';
+        break;
+      }
+    </script>
+  </body>
+</html>
